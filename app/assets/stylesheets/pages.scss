@@ -9,6 +9,7 @@
 	height: 100%;
 	margin-left: 0;
 	margin-right: 0;
+	margin-bottom: 0;
 }
 
 .aboutme {
@@ -61,5 +62,12 @@
 
 .contactpage {
 	margin-top: 30px;
-	width: 400px;
+	width: 500px;
+}
+
+.usersignedin {
+	font-family: 'Muli', sans-serif;
+	color: #FFA4C3;
+	float: right;
+	margin-top: 0;
 }
