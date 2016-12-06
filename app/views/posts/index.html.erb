@@ -1,6 +1,7 @@
 <div class="showpost">
 	<% @posts.each do |post| %>
 		<p><%= link_to post.title, post_path(post) %></p>
+		<p><%= image_tag post.image.url(:medium) %> </p>
 	<% end %>
 </div>
 

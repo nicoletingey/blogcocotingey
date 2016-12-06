@@ -1,6 +1,8 @@
 <div class="showpost"
 	<p id="notice"> <%= notice %> </p>
 	<div class="sppost">
+		<%= image_tag @post.image.url(:large) %>
+		
 		<div class="titlepost">
 		<p>
 		  <%= @post.title %>
