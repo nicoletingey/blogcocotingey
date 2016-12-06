@@ -1,22 +1,23 @@
 <div class="showpost"
 	<p id="notice"> <%= notice %> </p>
+	<div class="sppost">
+		<div class="titlepost">
+		<p>
+		  <%= @post.title %>
+		</p>
+		</div>
+		<p>
+		  <%= @post.date %>
+		</p>
 
-	<p>
-	  <strong>Title:</strong>
-	  <%= @post.title %>
-	</p>
+		<p>
+		  <%= @post.description %>
+		</p>
 
-	<p>
-	  <strong>Date:</strong>
-	  <%= @post.date %>
-	</p>
+		<%= link_to 'Posts', posts_path %>
 
-	<p>
-	  <strong>Text:</strong>
-	  <%= @post.description %>
-	</p>
-
-	<%= link_to 'Edit', edit_post_path %>
-	<%= link_to "Delete", post_path(@post), :confirm => "Are you sure?", :method => :delete %>
+		<%= link_to 'Edit', edit_post_path %>
+		<%= link_to "Delete", post_path(@post), :confirm => "Are you sure?", :method => :delete %>
+	</div>
 
 </div>
