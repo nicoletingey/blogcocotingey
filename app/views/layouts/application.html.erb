@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A female coder</title>
+    <%= favicon_link_tag 'favicon2.ico' %>
+    <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    	<nav id= "nav">
+          <div id= "page_nav">
+
+           <%= image_tag "Coco_logo2.jpg", :class => "logo_pic" %>
+
+           <%= render "shared/nav" %>
+          
+          </div>
+      </nav> 
+
+      <%= yield %>
+       
+  </body>
+</html>

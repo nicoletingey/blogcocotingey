@@ -1,0 +1,34 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.showpost {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+}
+
+.showpost a {
+	text-decoration: none;
+
+}
+
+.showpost a:hover {
+	text-decoration: underline;
+}
+.showpost a:visited {
+	color: #FFA4C3;
+}
+
+.newpost a {
+	text-decoration: none;
+}
+
+.newpost a:hover {
+	text-decoration: underline;
+}
+
+.newpost a:visited {
+	color: #FFA4C3;
+}

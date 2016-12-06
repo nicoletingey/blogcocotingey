@@ -1,0 +1,22 @@
+<div class="showpost"
+	<p id="notice"> <%= notice %> </p>
+
+	<p>
+	  <strong>Title:</strong>
+	  <%= @post.title %>
+	</p>
+
+	<p>
+	  <strong>Date:</strong>
+	  <%= @post.date %>
+	</p>
+
+	<p>
+	  <strong>Text:</strong>
+	  <%= @post.description %>
+	</p>
+
+	<%= link_to 'Edit', edit_post_path %>
+	<%= link_to "Delete", post_path(@post), :confirm => "Are you sure?", :method => :delete %>
+
+</div>

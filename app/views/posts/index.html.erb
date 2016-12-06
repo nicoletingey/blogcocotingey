@@ -1,0 +1,14 @@
+<div class="showpost">
+	<% @posts.each do |post| %>
+		<p><%= link_to post.title, post_path(post) %></p>
+		<p> <%= post.date %> </p>
+		<p> <%= post.description %> </p>
+	<% end %>
+</div>
+
+<div class="newpost">
+	<%= link_to 'New Post', new_post_path %>
+</div>
+
+
+rails generate migration AddImageToPost image:string

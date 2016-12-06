@@ -1,0 +1,65 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.homepage img {
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.aboutme {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+}
+
+.aboutme ul li {
+	list-style-type: none;
+}
+
+.strong {
+	color: #FFA4C3;
+}
+
+.selfimage {
+	height: 30%;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.selfimages {
+	height: 15%;
+	width: 15%;
+	align-items: inline;
+}
+
+.blockone {
+	align-items: inline;
+}
+
+.contactpage h1 {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+}
+.contactpage a {
+	text-decoration: none;
+}
+
+.contactpage a:hover {
+	color: #FFA4C3;
+	text-decoration: underline;
+}
+
+.contactpage a:visited {
+	color: #FFA4C3;
+}
+
+.contactpage {
+	margin-top: 30px;
+	width: 400px;
+}
