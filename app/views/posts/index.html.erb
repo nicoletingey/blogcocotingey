@@ -6,5 +6,7 @@
 </div>
 
 <div class="newpost">
-	<%= link_to 'New Post', new_post_path %>
+	<% if current_user && current_user.type == "Admin" %>
+		<%= link_to 'New Post', new_post_path %>
+	<% end %>
 </div>

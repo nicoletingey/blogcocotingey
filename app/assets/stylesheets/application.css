@@ -42,6 +42,7 @@
 	padding: 40px;
 	font-family: 'Homemade Apple', cursive;
 	font-weight: bold;
+	list-style: none;
 }
 
 .nav-item:hover {
